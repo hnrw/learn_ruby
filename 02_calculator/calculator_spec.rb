@@ -78,10 +78,13 @@ end
 # write tests and code for the following:
 
 describe "#multiply" do
-
   it "multiplies two numbers"
+    expect(multiply([2, 7])).to eq(14)
+  end
 
   it "multiplies several numbers"
+    expect(multiply([2, 7, 3])).to eq(42)
+  end
   
 end
 
